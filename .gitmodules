@@ -1,7 +1,3 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
-[submodule "public"]
-	path = public
-	url = https://github.com/shirocoop/shirocoop.github.io.git
-	branch = master
