@@ -1,0 +1,41 @@
+baseURL = "http://shirocoop.github.io"
+languageCode = "en-us"
+title = "Shiro"
+theme = "paper"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -200
+
+  [[menu.main]]
+    identifier = "discourse"
+    name = ""
+    pre = "<i class='fab fa-discourse'></i>"
+    url = "https://foodshift.se/c/workspaces/shiro/37"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "medium"
+    name = ""
+    pre = "<i class='fab fa-medium'></i>"
+    url = "https://medium.com/shirocoop"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "twitter"
+    name = ""
+    pre = "<i class='fab fa-twitter'></i>"
+    url = "https://twitter.com/shiro_coop"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "telegram"
+    name = ""
+    pre = "<i class='fab fa-telegram'></i>"
+    url = "https://t.me/shirocoop"
+    weight = -110
+
