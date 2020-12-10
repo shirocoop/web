@@ -1,4 +1,4 @@
-baseURL = "http://shirocoop.github.io"
+baseURL = "https://shirocoop.github.io"
 languageCode = "en-us"
 title = "Shiro"
 theme = "paper"
