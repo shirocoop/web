@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Tags - Shiro</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="https://shirocoop.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://shirocoop.github.io/style.css" rel="stylesheet">
+    <link href="https://shirocoop.github.io/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/18af625928.js" crossorigin="anonymous"></script>
+
+    
+    <link rel="icon" href="https://shirocoop.github.io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="generator" content="Hugo 0.79.0" />
+    
+    <link rel="alternate" type="application/rss+xml" href="https://shirocoop.github.io/tags/index.xml" title="Shiro" />
+    
+    
+    <script>
+      function setTheme() {
+        
+        
+        
+        
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <a href="/">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.56 204.2" style="width: 70px; height: 60px; margin-left: var(--gap)"><defs><style>.a{fill:#292929;}.b{fill:none;stroke:#292929;stroke-miterlimit:10;stroke-width:6px;}</style></defs><title>Rityta 1 kopia</title><path class="a" d="M27.91,154.53V115.08h4.52q7.7,38.55,36.47,38.54,12.93,0,20-7.37T96,129.74a21,21,0,0,0-6.24-15.47q-6.26-6.15-22.8-13.21Q52.24,94.73,44.74,90A33.74,33.74,0,0,1,33,77.62a32.94,32.94,0,0,1-4.2-16.19,29,29,0,0,1,9.09-21.85q9.09-8.73,23-8.73a42,42,0,0,1,14.66,2.53q6.87,2.53,14.12,10.5a19.42,19.42,0,0,0,4.7-10.77h4V65.23h-4Q91,51.21,82.24,43.15A29,29,0,0,0,62,35.1Q51.07,35.1,46,41a19.44,19.44,0,0,0-5.11,13A18.77,18.77,0,0,0,47.27,68.4q6.33,6,22.89,13.39a238,238,0,0,1,23,11.35A32.15,32.15,0,0,1,104.72,105a34.72,34.72,0,0,1,4.35,17.55q0,15.75-10.5,25.6t-28,9.87q-20.17,0-33.65-15.47-3,4.24-4.44,11.94Z"/><path class="a" d="M147.79,93.91A38.22,38.22,0,0,1,160,82.51a29.62,29.62,0,0,1,14.79-3.8q9.13,0,15.16,3.8t7.82,9.36q1.82,5.56,1.81,18v20.45q0,13,.5,15.83a5.52,5.52,0,0,0,2.94,4.12c1.63.88,4.64,1.31,9.05,1.31v4.17H173.76v-4.17h1.72q6.6,0,8.55-1.9a7.38,7.38,0,0,0,2.26-4.48q.32-2.56.31-14.88V108.11q0-9.23-1.08-13.66a12.63,12.63,0,0,0-5.11-7.33,16.86,16.86,0,0,0-10.09-2.89,20.84,20.84,0,0,0-12.67,4.12q-5.61,4.11-9.86,12.35v29.67q0,12.49.41,15.38a5.9,5.9,0,0,0,2.76,4.39c1.56,1,4.43,1.49,8.59,1.49v4.17H121.91v-4.17h1.9c4.35,0,7.17-.61,8.46-1.85a7.25,7.25,0,0,0,2.27-4.43q.32-2.58.31-15V56.54q0-11.2-2.12-14.2t-10.18-3V35.19q14,0,23.34-3.8h1.9Z"/><path class="a" d="M245.87,78.71v51.66q0,11.85.36,14.93a6.39,6.39,0,0,0,2.62,4.7q2.27,1.63,8,1.63h1.9v4.17H218.9v-4.17H222c4.28,0,7.07-.61,8.37-1.85a7.23,7.23,0,0,0,2.26-4.43q.31-2.58.32-15V107.93q0-13-1.22-15.92a6,6,0,0,0-3.26-3.62,24,24,0,0,0-7.1-.72H218.9V83.51q16.11-1.64,25-4.8ZM228.4,40.89a9.21,9.21,0,0,1,2.76-6.69,9,9,0,0,1,6.65-2.81,8.85,8.85,0,0,1,6.61,2.81,9.28,9.28,0,0,1,2.71,6.69,9.4,9.4,0,0,1-2.71,6.79,8.84,8.84,0,0,1-6.61,2.8,9,9,0,0,1-6.65-2.8A9.32,9.32,0,0,1,228.4,40.89Z"/><path class="a" d="M293.18,97.62a30.88,30.88,0,0,1,10-13.48q6.93-5.43,13.53-5.43,6,0,9.41,3.71c2.29,2.47,3.43,5,3.43,7.6a6.38,6.38,0,0,1-1.76,4.52,5.64,5.64,0,0,1-4.3,1.9c-3,0-5.31-2.23-6.87-6.69q-1.64-4.53-4.89-4.53-3.89,0-9.32,5.3a24.43,24.43,0,0,0-7,11q-1.54,5.7-1.54,15.65v13.21q0,11.85.31,14.93a6.26,6.26,0,0,0,2.58,4.7q2.26,1.63,8.05,1.63h2.54v4.17H268v-4.17h1.9c3.62,0,6.2-.49,7.74-1.49a6,6,0,0,0,2.76-4.21q.45-2.72.45-15.56v-20.9q0-11.94-.32-15A6.41,6.41,0,0,0,278,89.79q-2.26-1.67-8.05-1.67H268V84.05q8.5-1,22.26-5.34Q292.92,85.87,293.18,97.62Z"/><path class="a" d="M333.26,118.61q0-17,11.4-28.45t28-11.45q16.74,0,28.14,11.49t11.4,28.41q0,18.74-11.58,29.45a39.68,39.68,0,0,1-28,10.72,39.14,39.14,0,0,1-27.91-10.9Q333.27,137,333.26,118.61Zm15,.45q0,19.73,6.43,27.64t18,7.92q11.85,0,18.14-7.92t6.29-27.64q0-19.55-6.24-27.86t-18.19-8.33q-11.85,0-18.14,8.28T348.28,119.06Z"/><line class="b" x1="14.29" y1="186.01" x2="421.98" y2="186.01"/></svg>
+        </a>
+        <ul class="menu">
+          <li>
+            <a href="/about/">
+              
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://foodshift.se/c/workspaces/shiro/37">
+              <i class='fab fa-discourse'></i>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/shirocoop">
+              <i class='fab fa-medium'></i>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/shirocoop">
+              <i class='fab fa-telegram'></i>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/shiro_coop">
+              <i class='fab fa-twitter'></i>
+              <span></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Shiro is a local first supply chain network on a mission to create thriving regenerative food systems!</h2>
+  </header>
+  <section class="entry-content">
+   <p>A multi stakeholder platform cooperative. Open source, owned and managed by all active participants, from local consumers to regional wholesalers.  Shiro moves beyond food as a commodity and people as consumers. Participation on the platform means an active food citizenship to support the development of a democratic, socially and economically just, and environmentally regenerative food system.
+Shiro builds a new food system from the bottom up, not top down!...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://shirocoop.github.io/about/"></a>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="https://shirocoop.github.io">Shiro</a></span>
+</footer>
+<script src="https://shirocoop.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+
