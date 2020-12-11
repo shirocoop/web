@@ -1,9 +1,6 @@
 {{- partial "header.html" . }}
 
 {{- $scope := .Site }}
-{{- if .Title }}
-{{.Content}}
-{{ end }}
 {{.Content}}
 
 {{- $paginator := .Paginate (where $scope.RegularPages ".Params.type" "!=" "page") }}

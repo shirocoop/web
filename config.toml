@@ -4,8 +4,8 @@ title = "Shiro co-op"
 theme = "paper"
 
 [params]
-  description = "Shiro is a multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers."
-  images = ["/about_2.png"]
+  description = "Shiro is a local first supply chain network on a mission to create thriving regenerative food systems. A multi stakeholder platform cooperative – open source, co-owned by all active participants."
+  images = ["/Distributed_Network.png"]
   title = "Shiro co-op"
 
 [menu]

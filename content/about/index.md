@@ -1,11 +1,10 @@
 ---
 title: "Shiro is a local first supply chain network on a mission to create thriving regenerative food systems"
 date: 2020-12-10T11:58:30+01:00
-draft: false
 ---
 
 
-![](/about_2.png)
+![](about_2.png)
 
 Shiro is a multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers.
 
@@ -13,10 +12,9 @@ Shiro moves beyond food as a commodity and people as consumers. Participation on
 
 We envision a platform that allows for many local initiatives to link up and become truly an ecosystem that supports regenerative development.
 
-
 ## Shiro builds a new food system from the bottom up, not top down
 
-![](/about_1.png)
+![](about_1.png)
 
 Local first, that is our focus! Then region and city. After that national and international where possible.
 
@@ -24,7 +22,7 @@ It's about scaling out, not scaling up! It's about rejuvenating communities and 
 
 ## Shiro bridges the gap between producers and consumers
 
-![](/about_3.png)
+![](about_3.png)
 
 There is gap in local food systems, a gap between producers and consumers, between supply and demand. 
 
@@ -34,18 +32,18 @@ There is gap in local food systems, a gap between producers and consumers, betwe
 - Chain grocery stores rather not work with small producers
 - Local produce markets, direct restaurant sales, CSA programs, they all have advantages but also major drawbacks.
 
-**Consumers** would like to choose local products more but often ends up visiting the chain grocery store out of time 
+**Consumers** would like to choose local products more but often ends up visiting the chain grocery store out of time constraints, convenience etc.
 
 With Shiro we want to bridge the gap between producers and consumers, enabling new streams of products and services within the food system. We want to move away from centralised economies of extraction to co-created economies of shared value. Built on trust, community and sense of belonging.
 
-Shiro connects supply and demand and matches existing offers with consumer needs and wants. When value is unlocked that stimulates creation of new business models through a virtuous cycle of supply/demand discovery and co-creation.
+Shiro connects supply and demand and matches existing offers with consumer needs and wants. When value is unlocked it stimulates creation of new business models through a virtuous cycle of supply/demand discovery and co-creation.
 
 
 ## A multi sided matching engine at the core
 
-![](/about_4.png)
+![](about_4.png)
 
-Shiro runs on [ValueFlows](https://valueflo.ws) and REA, the vocabularies for distributed economic networks where resources flow from agent to agent via events. Objects such as resources, events, agents, proposals, intentions, actions, commitments and processes can be combined in novel configurations to facilitate a multitude of business scenarios.
+Shiro uses [ValueFlows](https://valueflo.ws) and REA, models for distributed economic networks where resources flow from agent to agent via events. Objects such as resources, events, agents, proposals, intentions, actions, commitments and processes can be combined in novel configurations to facilitate a multitude of business scenarios.
 
 Agents in our network are the consumers, the producers, food hubs of different kinds as well as everyone involved in the logistics that lets the ecosystem thrive.
 
@@ -58,7 +56,7 @@ Shiro will support new business models as well as established:
 
 ## Built on [Holochain](https://holochain.org), the next generation application platform 
 
-![](/about_5.png)
+![](about_5.png)
 
 Holochain is an open-source development framework and networking protocol. It allows for truly serverless applications with high levels of security, reliability, and performance. Holochain is modular, resilient and encrypted by design, handles value and transactions securely like a blockchain but without the scaling issues.
 
