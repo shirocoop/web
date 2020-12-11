@@ -47,8 +47,8 @@
     {{ end -}}
     <!-- Misc -->
     {{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-    {{- template "_internal/google_analytics_async.html" . }}
-    {{- template "_internal/opengraph.html" . }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
     {{- end }}
     <!-- Script -->
     <script>

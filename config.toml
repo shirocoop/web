@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Shiro"
 theme = "paper"
 
+[params]
+  description = "Shiro is a multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers."
+  images = ["/about_2.png"]
+  title = "Shiro co-op"
+
 [menu]
 
   [[menu.main]]
