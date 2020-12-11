@@ -1,6 +1,6 @@
 baseURL = "https://shirocoop.xyz"
 languageCode = "en-us"
-title = "Shiro"
+title = "Shiro co-op"
 theme = "paper"
 
 [params]
