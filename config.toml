@@ -1,4 +1,4 @@
-baseURL = "https://shirocoop.github.io"
+baseURL = "https://shirocoop.xyz"
 languageCode = "en-us"
 title = "Shiro"
 theme = "paper"
@@ -39,3 +39,9 @@ theme = "paper"
     url = "https://t.me/shirocoop"
     weight = -110
 
+  [[menu.main]]
+    identifier = "github"
+    name = ""
+    pre = "<i class='fab fa-github'></i>"
+    url = "https://github.com/shirocoop"
+    weight = -110
