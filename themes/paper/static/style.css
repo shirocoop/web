@@ -64,7 +64,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   word-break: break-word;
-  background: var(--theme);
+  background: var(--code-bg);
 }
 article,
 aside,
