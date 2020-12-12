@@ -10,7 +10,7 @@ Built using [Hugo](https://gohugo.io/), the world’s fastest framework for buil
 
 ## Shiro is a local first supply chain network on a mission to create thriving regenerative food systems
 
-![](./content/about_2.png)
+![](./content/about/about_2.png)
 
 Shiro is a multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers.
 
@@ -21,7 +21,7 @@ We envision a platform that allows for many local initiatives to link up and bec
 
 ## Shiro builds a new food system from the bottom up, not top down
 
-![](./content/about_1.png)
+![](./content/about/about_1.png)
 
 Local first, that is our focus! Then region and city. After that national and international where possible.
 
@@ -29,7 +29,7 @@ It's about scaling out, not scaling up! It's about rejuvenating communities and 
 
 ## Shiro bridges the gap between producers and consumers
 
-![](./content/about_3.png)
+![](./content/about/about_3.png)
 
 There is gap in local food systems, a gap between producers and consumers, between supply and demand. 
 
@@ -48,7 +48,7 @@ Shiro connects supply and demand and matches existing offers with consumer needs
 
 ## A multi sided matching engine at the core
 
-![](./content/about_4.png)
+![](./content/about/about_4.png)
 
 Shiro runs on [ValueFlows](https://valueflo.ws) and REA, the vocabularies for distributed economic networks where resources flow from agent to agent via events. Objects such as resources, events, agents, proposals, intentions, actions, commitments and processes can be combined in novel configurations to facilitate a multitude of business scenarios.
 
@@ -63,7 +63,7 @@ Shiro will support new business models as well as established:
 
 ## Built on [Holochain](https://holochain.org), the next generation application platform 
 
-![](./content/about_5.png)
+![](./content/about/about_5.png)
 
 Holochain is an open-source development framework and networking protocol. It allows for truly serverless applications with high levels of security, reliability, and performance. Holochain is modular, resilient and encrypted by design, handles value and transactions securely like a blockchain but without the scaling issues.
 
