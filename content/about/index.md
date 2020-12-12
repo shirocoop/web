@@ -1,12 +1,12 @@
 ---
-title: "Shiro is a local first supply chain network on a mission to create thriving regenerative food systems"
+title: "Can Platform Co-ops Disrupt and Fix a Destructive Food System?"
 date: 2020-12-10T11:58:30+01:00
 ---
 
 
 ![](about_2.png)
 
-Shiro is a multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers.
+Shiro is a local first supply chain network on a mission to create thriving regenerative food systems. A multi stakeholder platform cooperative – open source, owned and managed by all active participants from local consumers to regional wholesalers.
 
 Shiro moves beyond food as a commodity and people as consumers. Participation on the platform means an active food citizenship to support the development of a democratic, socially and economically just, and environmentally regenerative food system. 
 
