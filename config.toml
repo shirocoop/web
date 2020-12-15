@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Shiro co-op"
 theme = "paper"
 
+googleAnalytics = "UA-149448694-4"
+
 [params]
   description = "Shiro is a local first supply chain network on a mission to create thriving regenerative food systems. A multi stakeholder platform cooperative – open source, co-owned by all active participants."
   images = ["/Distributed_Network.png"]
